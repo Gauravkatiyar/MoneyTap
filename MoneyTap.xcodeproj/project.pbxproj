@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2D1E886664E743E403AACB /* Pods_MoneyTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D93C5A2197A777AE3CACF12 /* Pods_MoneyTap.framework */; };
+		4BB9A7B8214173C4006D4DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7B7214173C4006D4DE3 /* AppDelegate.swift */; };
+		4BB9A7BD214173C4006D4DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9A7BB214173C4006D4DE3 /* Main.storyboard */; };
+		4BB9A7C0214173C4006D4DE3 /* Monetap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7BE214173C4006D4DE3 /* Monetap.xcdatamodeld */; };
+		4BB9A7C2214173C8006D4DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9A7C1214173C8006D4DE3 /* Assets.xcassets */; };
+		4BB9A7C5214173C8006D4DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9A7C3214173C8006D4DE3 /* LaunchScreen.storyboard */; };
+		4BB9A7D3214175A7006D4DE3 /* WikiSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7CD214175A7006D4DE3 /* WikiSearchPresenter.swift */; };
+		4BB9A7D4214175A7006D4DE3 /* WikiSearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7CE214175A7006D4DE3 /* WikiSearchWorker.swift */; };
+		4BB9A7D5214175A7006D4DE3 /* WikiSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7CF214175A7006D4DE3 /* WikiSearchRouter.swift */; };
+		4BB9A7D6214175A7006D4DE3 /* WikiSearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7D0214175A7006D4DE3 /* WikiSearchModels.swift */; };
+		4BB9A7D7214175A7006D4DE3 /* WikiSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7D1214175A7006D4DE3 /* WikiSearchViewController.swift */; };
+		4BB9A7D8214175A7006D4DE3 /* WikiSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7D2214175A7006D4DE3 /* WikiSearchInteractor.swift */; };
+		4BB9A7DB214178F1006D4DE3 /* WikiSearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7DA214178F1006D4DE3 /* WikiSearchDataSource.swift */; };
+		4BB9A7DE21417A06006D4DE3 /* WikiSearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7DD21417A06006D4DE3 /* WikiSearchResultTableViewCell.swift */; };
+		4BB9A7E021419D77006D4DE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9A7DF21419D77006D4DE3 /* Default-568h@2x.png */; };
+		4BB9A7E32141A04A006D4DE3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7E22141A04A006D4DE3 /* NetworkManager.swift */; };
+		4BB9A7EB2141A499006D4DE3 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7E52141A498006D4DE3 /* SearchResult.swift */; };
+		4BB9A7EC2141A499006D4DE3 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7E62141A498006D4DE3 /* Pages.swift */; };
+		4BB9A7ED2141A499006D4DE3 /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7E72141A498006D4DE3 /* Continue.swift */; };
+		4BB9A7EE2141A499006D4DE3 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7E82141A498006D4DE3 /* Thumbnail.swift */; };
+		4BB9A7EF2141A499006D4DE3 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7E92141A499006D4DE3 /* Query.swift */; };
+		4BB9A7F02141A499006D4DE3 /* Terms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7EA2141A499006D4DE3 /* Terms.swift */; };
+		4BB9A7F22141D241006D4DE3 /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9A7F12141D241006D4DE3 /* SearchDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D93C5A2197A777AE3CACF12 /* Pods_MoneyTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB9A7B4214173C4006D4DE3 /* MoneyTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB9A7B7214173C4006D4DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BB9A7BC214173C4006D4DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BB9A7BF214173C4006D4DE3 /* Monetap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Monetap.xcdatamodel; sourceTree = "<group>"; };
+		4BB9A7C1214173C8006D4DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB9A7C4214173C8006D4DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BB9A7C6214173C8006D4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB9A7CD214175A7006D4DE3 /* WikiSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchPresenter.swift; sourceTree = "<group>"; };
+		4BB9A7CE214175A7006D4DE3 /* WikiSearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchWorker.swift; sourceTree = "<group>"; };
+		4BB9A7CF214175A7006D4DE3 /* WikiSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchRouter.swift; sourceTree = "<group>"; };
+		4BB9A7D0214175A7006D4DE3 /* WikiSearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchModels.swift; sourceTree = "<group>"; };
+		4BB9A7D1214175A7006D4DE3 /* WikiSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchViewController.swift; sourceTree = "<group>"; };
+		4BB9A7D2214175A7006D4DE3 /* WikiSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchInteractor.swift; sourceTree = "<group>"; };
+		4BB9A7DA214178F1006D4DE3 /* WikiSearchDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchDataSource.swift; sourceTree = "<group>"; };
+		4BB9A7DD21417A06006D4DE3 /* WikiSearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		4BB9A7DF21419D77006D4DE3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4BB9A7E22141A04A006D4DE3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4BB9A7E52141A498006D4DE3 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		4BB9A7E62141A498006D4DE3 /* Pages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		4BB9A7E72141A498006D4DE3 /* Continue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Continue.swift; sourceTree = "<group>"; };
+		4BB9A7E82141A498006D4DE3 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		4BB9A7E92141A499006D4DE3 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		4BB9A7EA2141A499006D4DE3 /* Terms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terms.swift; sourceTree = "<group>"; };
+		4BB9A7F12141D241006D4DE3 /* SearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
+		BF4440B2F20409A4E619EA92 /* Pods-MoneyTap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD614BC3E922021C72866DF /* Pods-MoneyTap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB9A7B1214173C4006D4DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2D1E886664E743E403AACB /* Pods_MoneyTap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8B94EE284A7285F4928F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D93C5A2197A777AE3CACF12 /* Pods_MoneyTap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB9A7AB214173C4006D4DE3 = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7DF21419D77006D4DE3 /* Default-568h@2x.png */,
+				4BB9A7B6214173C4006D4DE3 /* Monetap */,
+				4BB9A7B5214173C4006D4DE3 /* Products */,
+				62B5B0565CE65DDE5E1D2042 /* Pods */,
+				3D8B94EE284A7285F4928F25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB9A7B5214173C4006D4DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7B4214173C4006D4DE3 /* MoneyTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB9A7B6214173C4006D4DE3 /* Monetap */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7E121419F25006D4DE3 /* Network */,
+				4BB9A7CC21417586006D4DE3 /* Scene */,
+				4BB9A7B7214173C4006D4DE3 /* AppDelegate.swift */,
+				4BB9A7F12141D241006D4DE3 /* SearchDetailViewController.swift */,
+				4BB9A7BB214173C4006D4DE3 /* Main.storyboard */,
+				4BB9A7C1214173C8006D4DE3 /* Assets.xcassets */,
+				4BB9A7C3214173C8006D4DE3 /* LaunchScreen.storyboard */,
+				4BB9A7C6214173C8006D4DE3 /* Info.plist */,
+				4BB9A7BE214173C4006D4DE3 /* Monetap.xcdatamodeld */,
+			);
+			path = Monetap;
+			sourceTree = "<group>";
+		};
+		4BB9A7CC21417586006D4DE3 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7E42141A487006D4DE3 /* Model */,
+				4BB9A7DC214179D7006D4DE3 /* Cell */,
+				4BB9A7D9214178CF006D4DE3 /* DataSource */,
+				4BB9A7CD214175A7006D4DE3 /* WikiSearchPresenter.swift */,
+				4BB9A7CE214175A7006D4DE3 /* WikiSearchWorker.swift */,
+				4BB9A7CF214175A7006D4DE3 /* WikiSearchRouter.swift */,
+				4BB9A7D0214175A7006D4DE3 /* WikiSearchModels.swift */,
+				4BB9A7D1214175A7006D4DE3 /* WikiSearchViewController.swift */,
+				4BB9A7D2214175A7006D4DE3 /* WikiSearchInteractor.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4BB9A7D9214178CF006D4DE3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7DA214178F1006D4DE3 /* WikiSearchDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		4BB9A7DC214179D7006D4DE3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7DD21417A06006D4DE3 /* WikiSearchResultTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4BB9A7E121419F25006D4DE3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7E22141A04A006D4DE3 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4BB9A7E42141A487006D4DE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9A7E72141A498006D4DE3 /* Continue.swift */,
+				4BB9A7E62141A498006D4DE3 /* Pages.swift */,
+				4BB9A7E92141A499006D4DE3 /* Query.swift */,
+				4BB9A7E52141A498006D4DE3 /* SearchResult.swift */,
+				4BB9A7EA2141A499006D4DE3 /* Terms.swift */,
+				4BB9A7E82141A498006D4DE3 /* Thumbnail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62B5B0565CE65DDE5E1D2042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF4440B2F20409A4E619EA92 /* Pods-MoneyTap.debug.xcconfig */,
+				BFD614BC3E922021C72866DF /* Pods-MoneyTap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB9A7B3214173C4006D4DE3 /* MoneyTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB9A7C9214173C8006D4DE3 /* Build configuration list for PBXNativeTarget "MoneyTap" */;
+			buildPhases = (
+				B3A9B790DA445C796594E58D /* [CP] Check Pods Manifest.lock */,
+				4BB9A7B0214173C4006D4DE3 /* Sources */,
+				4BB9A7B1214173C4006D4DE3 /* Frameworks */,
+				4BB9A7B2214173C4006D4DE3 /* Resources */,
+				598EE253D38E0CB02006F14E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyTap;
+			productName = Monetap;
+			productReference = 4BB9A7B4214173C4006D4DE3 /* MoneyTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB9A7AC214173C4006D4DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.ways;
+				TargetAttributes = {
+					4BB9A7B3214173C4006D4DE3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 4BB9A7AF214173C4006D4DE3 /* Build configuration list for PBXProject "MoneyTap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BB9A7AB214173C4006D4DE3;
+			productRefGroup = 4BB9A7B5214173C4006D4DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB9A7B3214173C4006D4DE3 /* MoneyTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB9A7B2214173C4006D4DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB9A7C5214173C8006D4DE3 /* LaunchScreen.storyboard in Resources */,
+				4BB9A7E021419D77006D4DE3 /* Default-568h@2x.png in Resources */,
+				4BB9A7C2214173C8006D4DE3 /* Assets.xcassets in Resources */,
+				4BB9A7BD214173C4006D4DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		598EE253D38E0CB02006F14E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A9B790DA445C796594E58D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB9A7B0214173C4006D4DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB9A7E32141A04A006D4DE3 /* NetworkManager.swift in Sources */,
+				4BB9A7D4214175A7006D4DE3 /* WikiSearchWorker.swift in Sources */,
+				4BB9A7D7214175A7006D4DE3 /* WikiSearchViewController.swift in Sources */,
+				4BB9A7EC2141A499006D4DE3 /* Pages.swift in Sources */,
+				4BB9A7F22141D241006D4DE3 /* SearchDetailViewController.swift in Sources */,
+				4BB9A7F02141A499006D4DE3 /* Terms.swift in Sources */,
+				4BB9A7D8214175A7006D4DE3 /* WikiSearchInteractor.swift in Sources */,
+				4BB9A7B8214173C4006D4DE3 /* AppDelegate.swift in Sources */,
+				4BB9A7D3214175A7006D4DE3 /* WikiSearchPresenter.swift in Sources */,
+				4BB9A7EB2141A499006D4DE3 /* SearchResult.swift in Sources */,
+				4BB9A7D6214175A7006D4DE3 /* WikiSearchModels.swift in Sources */,
+				4BB9A7D5214175A7006D4DE3 /* WikiSearchRouter.swift in Sources */,
+				4BB9A7DE21417A06006D4DE3 /* WikiSearchResultTableViewCell.swift in Sources */,
+				4BB9A7DB214178F1006D4DE3 /* WikiSearchDataSource.swift in Sources */,
+				4BB9A7C0214173C4006D4DE3 /* Monetap.xcdatamodeld in Sources */,
+				4BB9A7EE2141A499006D4DE3 /* Thumbnail.swift in Sources */,
+				4BB9A7EF2141A499006D4DE3 /* Query.swift in Sources */,
+				4BB9A7ED2141A499006D4DE3 /* Continue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BB9A7BB214173C4006D4DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB9A7BC214173C4006D4DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BB9A7C3214173C8006D4DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB9A7C4214173C8006D4DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BB9A7C7214173C8006D4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BB9A7C8214173C8006D4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB9A7CA214173C8006D4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4440B2F20409A4E619EA92 /* Pods-MoneyTap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monetap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nothing.Monetap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BB9A7CB214173C8006D4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD614BC3E922021C72866DF /* Pods-MoneyTap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monetap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nothing.Monetap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB9A7AF214173C4006D4DE3 /* Build configuration list for PBXProject "MoneyTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB9A7C7214173C8006D4DE3 /* Debug */,
+				4BB9A7C8214173C8006D4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB9A7C9214173C8006D4DE3 /* Build configuration list for PBXNativeTarget "MoneyTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB9A7CA214173C8006D4DE3 /* Debug */,
+				4BB9A7CB214173C8006D4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BB9A7BE214173C4006D4DE3 /* Monetap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BB9A7BF214173C4006D4DE3 /* Monetap.xcdatamodel */,
+			);
+			currentVersion = 4BB9A7BF214173C4006D4DE3 /* Monetap.xcdatamodel */;
+			path = Monetap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BB9A7AC214173C4006D4DE3 /* Project object */;
+}
