@@ -32,10 +32,12 @@ class SearchDetailViewController: UIViewController{
 extension SearchDetailViewController : UIWebViewDelegate {
     
     func webViewDidStartLoad(_ webView: UIWebView) {
+        print("(\(#function)")
         MBProgressHUD.showAdded(to: self.view, animated: true)
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
+        print("(\(#function)")
         MBProgressHUD.hide(for: self.view, animated: true)
     }
     
